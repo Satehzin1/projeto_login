@@ -15,7 +15,7 @@ form.addEventListener('submit', (event) => {
         localStorage.setItem("emailCadastro", emailCadastro);
         localStorage.setItem("senhaCadastro", senhaConfirma);
 
-        window.location = "../index.html"
+        window.location = "../../index.html"
 
     } else {
         alert("senhas não conferem!!!");

@@ -31,9 +31,8 @@ document.querySelector("form").addEventListener("submit", (event) => {
             if (tentativas === 3) {
                 alert("Senha bloqueada por excesso de tentativas !!!");
 
-                window.location = '/assets/pages/recupera.html';
+                window.location = "assets/pages/recupera.html"
             };
         };
-
     };
 });
