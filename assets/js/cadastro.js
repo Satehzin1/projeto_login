@@ -13,10 +13,10 @@ form.addEventListener('submit', (event) => {
         alert("cadastro realizado com sucesso");
 
         localStorage.setItem("emailCadastro", emailCadastro);
-        localStorage.setItemO("senhaCadastro", senhaConfirma);
+        localStorage.setItem("senhaCadastro", senhaConfirma);
 
-        window.location = "../../index.html"
-        
+        window.location = "../index.html"
+
     } else {
         alert("senhas não conferem!!!");
     }

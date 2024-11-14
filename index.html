@@ -13,7 +13,8 @@
      <link rel="stylesheet" href="assets/css/login.css">
 
     <!-- =============== JS ================== -->
-     <script src="assets/js/login.js" defer></script>
+     <script src="assets/js/eye.js" defer></script>
+     <script src="assets/js/logar.js" defer></script>
     
     <title>Login</title>
     
@@ -36,9 +37,9 @@
 
                     <div class="login__box-input">
 
-                        <input type="email" id="login-email" class="login__input" required placeholder="">
+                        <input type="email" id="email" class="login__input" required placeholder="">
                         
-                        <label for="login-email" class="login__label">Email</label>
+                        <label for="email" class="login__label">Email</label>
                     </div>
                 </div>
 
@@ -48,9 +49,9 @@
 
                     <div class="login__box-input">
                         
-                        <input type="password" id="login-pass" class="login__input" required placeholder="">
+                        <input type="password" id="password" class="login__input" required placeholder="">
                         
-                        <label for="login-pass" class="login__label">Password</label>
+                        <label for="password" class="login__label">Password</label>
 
                         <i class="ri-eye-off-line login__eye" id="login-eye"></i>
                         
@@ -62,20 +63,20 @@
 
                 <div class="login__check-group">
                     
-                    <input type="checkbox" id="login-check" class="login__check-input">
+                    <input type="checkbox" id="password_confirma" class="login__check-input">
 
-                    <label for="login-check" class="login__check-label">Remember me</label>
+                    <label for="password_confirma" class="login__check-label">Remember me</label>
 
                 </div>
 
-                <a href="pages/recupera.html" class="login__forgot">Forgot Password?</a>
+                <a href="assets/pages/recupera.html" class="login__forgot">Forgot Password?</a>
 
             </div>
 
             <button type="submit" class="login__button">Login</button>
 
             <p class="login__register"> 
-                Don't Have an account? <a href="pages/cadastro.html">Register</a>
+                Don't Have an account? <a href="assets/pages/cadastro.html">Register</a>
             </p>
         </form>
     </main>
