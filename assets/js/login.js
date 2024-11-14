@@ -71,7 +71,7 @@ document.querySelector("form").addEventListener("submit", (event) => {
             alert(`tentativa ${tentativas}/3`)
 
             if (tentativas === 3) {
-                
+                alert
             }
         }
 
