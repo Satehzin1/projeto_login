@@ -36,7 +36,7 @@
 
                     <div class="login__box-input">
 
-                        <input type="email" id="login-email" class="login__input" required placeholder="">
+                        <input type="email" id="email" class="login__input" autocomplete="on" required placeholder="">
                         
                         <label for="login-email" class="login__label">Digite o e-mail Cadastrado:</label>
                     </div>
@@ -48,7 +48,7 @@
 
                     <div class="login__box-input">
                         
-                        <input type="password" id="login-pass" class="login__input" required placeholder="">
+                        <input type="password" id="password" class="login__input" minlength="6" required placeholder="">
                         
                         <label for="login-pass" class="login__label">Cadastre uma nova senha:</label>
 
@@ -63,7 +63,7 @@
 
                     <div class="login__box-input">
 
-                        <input type="password" id="login-repeat" class="login__input" required placeholder="">
+                        <input type="password" id="password_confirma" class="login__input" minlength="6" placeholder="">
 
                         <label for="login-repeat" class="login__label">Digite a senha novamente:</label>
 
@@ -76,7 +76,7 @@
             <button type="submit" class="login__button">Cadastrar</button>
 
             <p class="login__register"> 
-                Have an account? <a href="../login.html">Login</a>
+                Have an account? <a href="../index.html">Login</a>
             </p>
         </form>
     </main>
